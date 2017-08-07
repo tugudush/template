@@ -1,0 +1,45 @@
+/** tablet portrait and above **/
+@media (min-width: 768px) {    
+    
+} /* end of @media (min-width: 768px) */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+} /* end of @media (min-width: 768px) and (max-width: 1024px) */
+
+/** desktop **/
+@media (min-width: 1200px) {
+    .wrap {
+        max-width: 1200px;
+    }
+} /* end of @media (min-width: 1200px) */
+
+@media (min-width: 1600px) {
+    .wrap {
+        max-width: 1600px;
+    }
+} /* end of @media (min-width: 1200px) */
+
+/** tablet landscape and lower **/
+@media (max-width: 1024px) {
+    .wrap {
+        max-width: 960px;
+    }
+} /* end of @media (max-width: 1024px) */
+
+/** tablet portrait and lower **/
+@media (max-width: 768px) {    
+    .wrap {
+        max-width: initial;
+        padding: 0 20px;
+    }
+} /* end of @media (max-width: 768px) */
+
+/** mobile devices **/
+@media (max-width: 767px) {        
+    
+} /* end of @media (max-width: 767px) */
+
+@media (max-width: 767px) and (orientation: portrait) {    
+    
+} /* end of @media (max-width: 767px) */
