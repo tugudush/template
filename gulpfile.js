@@ -5,8 +5,8 @@ gulp.task('inject', function() {
     var inject = require('gulp-inject');
     var options = {
         bowerJson: require('./bower.json'),
-        directory: './bower_components',
-        ignorePath: '../../bower_components'
+        directory: './bower_components'
+        //ignorePath: '../../bower_components'
     };
     return gulp.src('./*.html')
         .pipe(wiredep(options))
